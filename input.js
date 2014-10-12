@@ -2,7 +2,7 @@
  * @jsx React.DOM
  */
 
-var react = require('react');
+var React = require('react');
 
 var Input = React.createClass({
   render() {
@@ -13,3 +13,5 @@ var Input = React.createClass({
     );
   }
 });
+
+module.exports = Input;
